@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>~
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <form action="" id="form">
+            <h1 id="titulo">Buscador de Endereços</h1>
+            <label for="cep">Digite seu cep:</label>
+            <input type="number" min="8" name="cep" id="cep" inputmode=”numeric”>
+            <button id="buscar">Buscar</button>
+            <div class="response">
+                <span id="bairro">Bairro: <span id="bairro-text">--</span></span>
+                <span id="localidade">localidade: <span id="localidade-text">--</span></span>
+                <span id="localidade">logradouro: <span id="logradouro-text">--</span></span>
+                <span id="uf">UF: <span id="uf-text">--</span></span>
+                <span id="ddd">DDD: <span id="ddd-text">--</span></span>
+            </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
