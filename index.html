@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>~
-    <link rel="stylesheet" href="style.css">
+    <title>Buscador de Endereços através do CEP</title>~
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -18,17 +18,18 @@
         <form action="" id="form">
             <h1 id="titulo">Buscador de Endereços</h1>
             <label for="cep">Digite seu cep:</label>
-            <input type="number" min="8" name="cep" id="cep" inputmode=”numeric”>
+            <input type="number" min="8" name="cep" id="cep" inputmode=”numeric” placeholder="Somente numeros...">
             <button id="buscar">Buscar</button>
             <div class="response">
                 <span id="bairro">Bairro: <span id="bairro-text">--</span></span>
                 <span id="localidade">localidade: <span id="localidade-text">--</span></span>
-                <span id="localidade">logradouro: <span id="logradouro-text">--</span></span>
+                <span id="logradouro">logradouro: <span id="logradouro-text">--</span></span>
                 <span id="uf">UF: <span id="uf-text">--</span></span>
                 <span id="ddd">DDD: <span id="ddd-text">--</span></span>
+                <button id="novabusca">Fazer nova busca</button>
             </div>
         </form>
     </div>
-    <script src="script.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
